@@ -1,0 +1,25 @@
+{
+  "name": "@deatonsolutions/website",
+  "version": "1.0.0",
+  "description": "The official website for Deaton Solutions.",
+  "keywords": [],
+  "license": "GPL-3.0",
+  "author": "Matthew Downs <matthew.downsc@gmail.com>",
+  "homepage": "https://github.com/deatonsolutions/website#readme",
+  "bugs": {
+    "url": "https://github.com/deatonsolutions/website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deatonsolutions/website.git"
+  },
+  "scripts": {
+    "start": "npm run serve",
+    "build": "parcel build index.html",
+    "watch": "parcel watch index.html",
+    "serve": "parcel serve index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
