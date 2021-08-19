@@ -13,13 +13,19 @@
     "type": "git",
     "url": "git+https://github.com/deatonsolutions/website.git"
   },
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "npm run serve",
-    "build": "parcel build index.html",
-    "watch": "parcel watch index.html",
-    "serve": "parcel serve index.html --open"
+    "build": "parcel build",
+    "watch": "parcel watch",
+    "serve": "parcel serve --open"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3"
   }
 }
